@@ -23,7 +23,7 @@ import base64
 
 # ---------------- Page Config ----------------
 st.set_page_config(
-    page_title="🚀 LaunchIQ Intelligence", 
+    page_title="LaunchIQ Intelligence", 
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
