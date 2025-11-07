@@ -6,3 +6,4 @@ pandas
 plotly
 reportlab
 openpyxl
+openai
