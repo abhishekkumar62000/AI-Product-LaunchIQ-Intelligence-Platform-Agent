@@ -131,7 +131,6 @@ streamlit run app.py
 
 ### 🌐 High-Level Structure
 
-```
 LaunchIQ Intelligence Platform
 │
 ├── 🧠 AI Orchestrator
