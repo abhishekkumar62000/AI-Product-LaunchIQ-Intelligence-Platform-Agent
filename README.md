@@ -1,168 +1,126 @@
-AI Product LaunchIQ Intelligence Platform – Complete Project Overview
+# 🚀 LaunchIQ Intelligence Platform
 
-App Name and Branding
-LaunchIQ Intelligence Platform
-Tagline: Complete Competitive Intelligence and Strategic Planning Powered by AI
+**AI Product LaunchIQ Intelligence Platform**  
+✨ *Complete Competitive Intelligence & Strategic Planning Powered by AI* ✨
 
-Live Application Link
-[https://market-launch-intelligence-platforms-01-agents.streamlit.app/](https://market-launch-intelligence-platforms-01-agents.streamlit.app/)
+**Live demo:** https://market-launch-intelligence-platforms-01-agents.streamlit.app/
 
-Created on November 7, 2025
+**Created:** November 7, 2025
 
-Project Overview
-LaunchIQ Intelligence Platform is an advanced AI-powered multi-agent application built to revolutionize how companies plan and execute product launches. The platform provides comprehensive competitive intelligence, real-time market sentiment insights, and data-driven strategic recommendations. It is designed to help marketing teams, product managers, and decision-makers make smarter go-to-market decisions using the power of artificial intelligence.
+---
 
-The platform combines real-time web scraping, performance analytics, and advanced AI reasoning to generate complete intelligence reports about market competitors, trends, and brand perception. With a clean, user-friendly Streamlit interface, it allows anyone to analyze product launch performance, compare multiple companies, and export insights in multiple professional formats.
+## 🔎 Project Summary
 
-Core Objective
-The goal of LaunchIQ Intelligence Platform is to make evidence-based strategic planning accessible through automation and AI. The tool helps reduce manual research time, improve strategic accuracy, and empower teams to identify opportunities, assess risks, and refine launch strategies in real time.
+**LaunchIQ Intelligence Platform** is a multi-agent AI application that helps product teams plan, analyze, and optimize product launches and go-to-market strategies. The platform combines real-time web intelligence, sentiment analysis, performance metrics, and structured strategic recommendations — all orchestrated by specialized AI agents.
 
-Architecture and AI System
-The system is built on a three-agent architecture, each specialized in a core analytical domain. These AI agents collaborate to produce complete strategic insights:
+Key goal: make evidence-driven launch decisions faster and more reliable.
 
-1. Product Launch Analyst
+---
 
-   * Acts as a Senior Go-To-Market Strategist.
-   * Evaluates competitor positioning and product launch tactics.
-   * Identifies strengths, weaknesses, and gaps in current strategies.
-   * Produces evidence-based recommendations with data-backed reasoning.
-   * Uses structured frameworks like SWOT and opportunity analysis.
+## 🧭 Core Capabilities
 
-2. Market Sentiment Specialist
+- **Comprehensive competitor analysis** (tactics, positioning, strengths/weaknesses)
+- **Real-time market sentiment tracking** across social media and review sources
+- **Launch performance metrics** including adoption, engagement, revenue signals
+- **Multi-company side-by-side comparisons**
+- **Historical tracking & trend visualizations** with export options
+- **Automated alerting** for sentiment or launch-related events
+- **Actionable strategic outputs** (SWOT, GTM playbooks, 30/60/90 day plans)
 
-   * Serves as a Consumer Perception and Market Mood Analyst.
-   * Monitors and analyzes social media sentiment, customer feedback, and brand reputation trends.
-   * Evaluates positive and negative sentiment drivers using online data sources.
-   * Produces overall sentiment scores on a scale from -100 to +100.
-   * Provides qualitative summaries of market buzz and perception shifts.
+---
 
-3. Launch Metrics Specialist
+## 🤖 Architecture & Core AI System
 
-   * Operates as a Product Performance and Market Analytics Expert.
-   * Tracks quantitative metrics such as adoption, engagement, retention, and revenue indicators.
-   * Monitors press coverage and news signals around launches.
-   * Identifies growth patterns, virality coefficients, and performance anomalies.
+**Multi-Agent Architecture (3 Specialized AI Agents):**
 
-AI Model and Technical Framework
-The system uses GPT-4o-mini, an optimized version of GPT-4 designed for cost-efficient inference, providing approximately 94% savings compared to standard GPT-4 usage. The temperature parameter is set at 0.3, offering a balanced mix of creativity and accuracy while minimizing hallucinations in analytical outputs.
+1. **Product Launch Analyst**  
+   - Role: Senior GTM strategist.  
+   - Tasks: Evaluate competitor positioning, analyze launch tactics, produce evidence-driven competitive analysis and prioritized recommendations.
 
-For real-time intelligence gathering, the application integrates the Firecrawl API, which enables dynamic web scraping, data aggregation, and competitive signal detection across public web sources.
+2. **Market Sentiment Specialist**  
+   - Role: Consumer perception expert.  
+   - Tasks: Scrape social media, reviews, and forums; compute sentiment drivers and trend changes; produce sentiment score (-100 to +100).
 
-The user interface and orchestration layer are built using Streamlit, allowing smooth deployment and fast visualization without extensive frontend infrastructure.
+3. **Launch Metrics Specialist**  
+   - Role: Performance analytics expert.  
+   - Tasks: Track KPIs (adoption, retention, revenue), press coverage, virality metrics and translate them into growth insights.
 
-Key Features and Tabs
+**Primary model:** `GPT-4o-mini` (chosen for cost-efficiency; roughly ~94% cost savings compared to larger variants).  
+**Model temperature:** `0.3` (balanced creativity & accuracy).  
+**Web intelligence & scraping:** Firecrawl API (real-time scraping/data aggregation).
 
-1. Competitor Analysis
+---
 
-   * Allows deep analysis of competitor product launches and strategic positioning.
-   * Evaluates go-to-market tactics, strengths, weaknesses, and opportunities.
-   * Provides detailed recommendations based on AI-driven evaluations.
-   * Includes referenced sources and evidence to support each insight.
+## 🧩 Feature Tabs (User-Facing)
 
-2. Market Sentiment Analysis
+**Tab 1: 🔍 Competitor Analysis**  
+- Deep dives into competitor launches  
+- Tactical, strategic & positioning analysis with source links  
+- Actionable recommendations
 
-   * Monitors customer opinions and reactions from social media and online reviews.
-   * Tracks sentiment patterns and brand perception shifts.
-   * Identifies emotional drivers that influence public opinion.
-   * Produces sentiment index scores and word-frequency summaries.
+**Tab 2: 💬 Market Sentiment Analysis**  
+- Social media + review sentiment aggregation  
+- Drivers of positive/negative sentiment  
+- Brand perception monitoring & overall sentiment score (-100 to +100)
 
-3. Launch Metrics
+**Tab 3: 📈 Launch Metrics**  
+- KPI dashboards (user adoption, retention, revenue growth)  
+- Media & press monitoring  
+- Traction and virality indicators
 
-   * Tracks essential KPIs such as adoption rates, engagement scores, and market traction.
-   * Analyzes revenue growth patterns and user activity metrics.
-   * Monitors coverage across media, press, and tech platforms.
-   * Highlights areas of high performance and potential improvement.
+**Tab 4: ⚖️ Multi-Company Comparison**  
+- Compare 2–5 companies side-by-side  
+- Modes: Sentiment, Market Position, Launch Strategy  
+- Comparative insights & recommendations
 
-4. Multi-Company Comparison
+**Tab 5: 📊 Historical Tracking & Trends**  
+- Stores last 100 analysis entries  
+- Sentiment trend visualizations (Plotly)  
+- Timeline, company filtering, CSV export
 
-   * Allows users to compare between 2 and 5 competitors simultaneously.
-   * Provides three comparative modes: sentiment, market position, and launch strategy.
-   * Generates comparative summaries highlighting relative strengths and weaknesses.
-   * Displays insights in a tabular and chart-based format for clarity.
+**Tab 6: 🔔 Alert Manager**  
+- Custom alerts (sentiment drops/spikes, new product launches)  
+- Thresholds configurable (5–50%)  
+- Active dashboard; email notifications marked as "future feature"
 
-5. Historical Tracking and Trends
+**Tab 7: 📊 Visualizations & Export Suite**  
+- Interactive charts: sentiment gauges, word freq, keywords/themes  
+- Export: PDF, Excel (multi-sheet), JSON, Markdown
 
-   * Keeps records of up to 100 previous analyses.
-   * Visualizes historical sentiment and performance trends using interactive Plotly charts.
-   * Provides filtering options to focus on specific companies or time frames.
-   * Allows users to export historical data in CSV format for further offline analysis.
+**Tab 8: 🎯 Strategic Recommendations Generator**  
+- Outputs using 5 frameworks:  
+  - SWOT Analysis  
+  - GTM Playbook  
+  - Risk Assessment Matrix (probability × impact)  
+  - Opportunity Scoring (prioritized)  
+  - 30/60/90 Day Action Plan
 
-6. Alert Manager
+---
 
-   * Offers an automated alert system for ongoing market and competitor monitoring.
-   * Enables users to define thresholds between 5% and 50% for trigger events.
-   * Detects sentiment drops, sudden spikes, or new launch activities.
-   * Displays alerts in a live dashboard and logs historical triggers.
-   * Email notification functionality is planned for future updates.
+## 🛠️ Tech Stack (suggested / current)
 
-7. Visualizations and Export Suite
+- **Frontend:** Streamlit (live app link above)  
+- **AI / LLMs:** GPT-4o-mini (via OpenAI API)  
+- **Web intelligence:** Firecrawl API for scraping/real-time web data  
+- **Visualizations:** Plotly for interactive charts  
+- **Data storage:** Lightweight DB or file store for history (CSV/JSON)  
+- **Deployment:** Streamlit Cloud / any containerized host
 
-   * Provides interactive data visualization tools for better interpretation.
-   * Includes sentiment gauges, keyword frequency maps, and theme analysis charts.
-   * Supports exporting all results into multiple formats: PDF reports, Excel sheets, JSON data, and Markdown summaries.
-   * Designed to help analysts, executives, and developers use outputs for presentations, integrations, and documentation.
+---
 
-8. Strategic Recommendations Generator
+## ⚙️ Installation (developer/local)
 
-   * Generates AI-driven strategic outputs using five key business frameworks:
+> _Replace `FIRECRAWL_API_KEY` and `OPENAI_API_KEY` with your own keys._
 
-     1. SWOT Analysis – a four-quadrant evaluation of strengths, weaknesses, opportunities, and threats.
-     2. GTM Playbook – a step-by-step go-to-market strategy document.
-     3. Risk Assessment Matrix – evaluation of probability and impact of strategic risks.
-     4. Opportunity Scoring – ranks market opportunities based on potential value and feasibility.
-     5. 30/60/90 Day Action Plan – creates a phased execution roadmap for teams.
+```bash
+git clone <your-repo-url>
+cd launchiq-intelligence-platform
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+pip install -r requirements.txt
 
-Technical Stack
-Frontend: Streamlit
-Backend and AI Layer: GPT-4o-mini via OpenAI API
-Web Intelligence: Firecrawl API for web scraping and dynamic data collection
-Visualization: Plotly for interactive charting
-Data Storage: Lightweight CSV and JSON data persistence
-Deployment: Streamlit Cloud
+# env vars
+export OPENAI_API_KEY="sk-..."
+export FIRECRAWL_API_KEY="fc-..."
 
-Configuration and Environment Setup
-The application requires an OpenAI API key and a Firecrawl API key to function. Users can set these as environment variables or in a .env file.
-Essential environment variables include:
-OPENAI_API_KEY
-FIRECRAWL_API_KEY
-MODEL_NAME = gpt-4o-mini
-MODEL_TEMPERATURE = 0.3
-MAX_HISTORY_ENTRIES = 100
-ALERT_EMAIL_ENABLED = false
-
-Installation Instructions
-Clone the repository.
-Create a virtual environment and install dependencies using pip install -r requirements.txt.
-Set environment variables for API keys.
-Run the application using the command streamlit run app.py.
-
-Cost Efficiency
-GPT-4o-mini has been selected for its exceptional balance of performance and cost. The model achieves 94% savings compared to standard GPT-4 while retaining high analytical accuracy. The temperature setting of 0.3 ensures consistent and factually aligned outputs. Firecrawl integration enables live data acquisition, offering up-to-date competitive insights without excessive API costs.
-
-Example Use Cases
-Quick Competitor Scan – Users input a competitor’s domain name, and the system automatically produces a full competitive analysis including positioning, sentiment, and performance metrics.
-Monitor and Alert – Users set thresholds for sentiment changes or activity spikes. When triggered, alerts appear in the dashboard and suggest quick-response playbooks.
-Quarterly Strategy Pack – Generates a professional-grade report combining trend analysis, SWOT results, and a 30/60/90 action plan for executives.
-
-Data Retention and History
-The platform retains the last 100 analyses by default, ensuring historical continuity. Users can export or purge data as needed.
-
-Export and Integration Options
-The platform supports exporting all intelligence data in PDF, Excel, JSON, and Markdown formats. Planned integrations include email alerting, Slack notifications, and database synchronization for enterprise use.
-
-Contribution Guidelines
-Users can fork the repository, create new branches for features, and submit pull requests. The project follows semantic commit practices. Contributions should include tests and documentation for any new module or feature.
-
-Release Notes – Version 0.1.0 (November 7, 2025)
-Initial public release of the AI Product LaunchIQ Intelligence Platform.
-Introduced full multi-agent architecture including Product Launch Analyst, Market Sentiment Specialist, and Launch Metrics Specialist.
-Implemented all eight analytical and visualization tabs.
-Deployed live demo on Streamlit Cloud.
-
-Contact and Support
-Live Demo: [https://market-launch-intelligence-platforms-01-agents.streamlit.app/](https://market-launch-intelligence-platforms-01-agents.streamlit.app/)
-Repository: [https://github.com/abhishekkumar62000/AI-Product-LaunchIQ-Intelligence-Platform-Agent](https://github.com/abhishekkumar62000/AI-Product-LaunchIQ-Intelligence-Platform-Agent)
-Author: Abhishek Kumar
-Organization: TechSeva IT Solutions Agency
-
-In summary, the AI Product LaunchIQ Intelligence Platform represents a new generation of intelligent competitive analysis and market planning tools. It merges multiple specialized AI agents into a unified ecosystem capable of analyzing markets, predicting performance, and suggesting data-driven strategic actions. Built with an emphasis on accessibility, automation, and cost efficiency, this platform is designed to redefine how product teams prepare for, execute, and evaluate product launches in the AI era.
+streamlit run app.py
