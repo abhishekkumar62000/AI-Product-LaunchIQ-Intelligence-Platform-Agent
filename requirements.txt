@@ -1,4 +1,4 @@
- streamlit
+streamlit
 agno
 firecrawl-py>=4.6.0
 python-dotenv
