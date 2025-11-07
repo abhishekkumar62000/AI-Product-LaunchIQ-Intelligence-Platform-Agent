@@ -1,0 +1,8 @@
+streamlit
+agno
+firecrawl-py>=4.6.0
+python-dotenv
+pandas
+plotly
+reportlab
+openpyxl
